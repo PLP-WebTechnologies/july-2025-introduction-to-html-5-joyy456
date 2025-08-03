@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>Joy Wavinya - PLP Week 1 Assignment</title>
+  <meta name="description" content="Joy Wavinya's first HTML5 assignment for the Power Learn Project, showcasing semantic structure and accessibility.">
+  <meta name="keywords" content="HTML5, PLP, Joy Wavinya, Accessibility, SEO, Beginner Web Developer">
+  <meta name="author" content="Joy Wavinya" />
+</head>
+<body>
+  <header>
+    <h1>Joy Wavinya</h1>
+    <p>Aspiring Web Developer | PLP July 2025 Cohort</p>
+
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#introduction" aria-current="page">Introduction</a></li>
+        <li><a href="#learning" >Learning Goals</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introduction" aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction</h2>
+      <p>Hello! My name is Joy Wavinya. I am currently participating in the Power Learn Project’s July 2025 cohort. This is my first HTML-only webpage. The goal is to demonstrate my understanding of semantic structure, accessibility, and SEO fundamentals using only HTML5.</p>
+    </section>
+
+    <section id="learning" aria-labelledby="learning-heading">
+      <h2 id="learning-heading">Learning Goals</h2>
+      <article>
+        <h3>Semantic HTML</h3>
+        <p>Understanding how to use elements like <code>&lt;header&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code> instead of relying on generic tags like <code>&lt;div&gt;</code>.</p>
+      </article>
+
+      <article>
+        <h3>Accessibility</h3>
+        <p>Improving structure and navigation with labels, landmarks, and ARIA attributes for assistive technologies.</p>
+      </article>
+
+      <article>
+        <h3>SEO Awareness</h3>
+        <p>Using metadata, headings, and human-readable content to make pages easier to find and understand.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>If you'd like to connect or share feedback, please use the form below:</p>
+      <form action="#" method="POST" aria-label="Contact Form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Joy Wavinya. PLP Week 1 HTML5 Assignment.</p>
+  </footer>
+</body>
+</html>
